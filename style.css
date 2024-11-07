@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("zdjecia/fia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1{
+    color: #FFFFFF;
+}
+
+h2{
+    text-align: center;
+    color: #333
+}
+
+.drivers-list {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.drivers-list ul {
+    list-style-type: none;
+    display: grid; /* Użycie gridu w ul */
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
+    gap: 20px; /* Odstępy między elementami */
+}
+
+.drivers-list li {
+    margin-bottom: 1rem;
+}
+
+.drivers-list a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.drivers-list a:hover {
+    color: #004080;
+}
+
+.driver-info {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.driver-info img {
+    width: 200px;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+.drivers-list ul :hover {
+    color: #FF0000; /* Kolor linku po najechaniu */
+}
+
+

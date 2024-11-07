@@ -1,0 +1,92 @@
+/* Resetowanie marginesów i paddingu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja ciała strony */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("zdjecia/fia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Nagłówek */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Sekcja z kierowcami */
+.team-drivers {
+    background-color: #fff;
+    border: 2px solid #ccc; /* Ramka wokół sekcji */
+    border-radius: 10px; /* Zaokrąglenie rogów ramki */
+    padding: 20px;
+    width: 80%;
+    max-width: 600px; /* Maksymalna szerokość */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień wokół sekcji */
+}
+
+/* Nagłówek sekcji kierowców */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #444;
+}
+
+/* Lista kierowców */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #007BFF; /* Kolor linku */
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #FF0000; /* Kolor linku po najechaniu */
+}
+
+/* Nawigacja powrotu */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
